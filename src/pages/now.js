@@ -8,61 +8,44 @@ const Now = props => (
   <>
     <SEO
       title="What I'm Doing Now | Kelly Vaughn"
-      image="https://kvlly.com/images/nowkelly.jpg"
+      image="https://kvlly.com/images/nowkelly-uncropped.jpg"
       description="A quick recap of what I'm up to right now, including what I'm listening to, working on, and celebrating. Last updated July 13, 2019."
     />
     <div className="siteHeader">
       <h1>What I'm Doing Now &mdash;</h1>
-      <h2>July 13, 2019</h2>
+      <h2>September 18, 2019</h2>
     </div>
     <div className="inner-flex">
       <div className="inner-content summary">
         <ul className="now">
           <li>
-            <b>Location: </b> Atlanta, GA
+            <b>Location: </b> On a plane en route to Santa Monica
           </li>
           <li>
-            <b>Travel: </b> Recently visited Toronto for{' '}
+            <b>Travel: </b> Most recently Scotland for a wedding, but I guess
+            actual-most-recently is this trip to Santa Monica for the{' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://unite.shopify.com"
+              href="https://rechargepayments.com/chargex-summit/"
             >
-              Shopify Unite
-            </a>
-            . Up next is Scotland for a wedding.
-          </li>
-          <li>
-            <b>Reading: </b> Everything. Presently reading a lot of thrillers
-            and easy summer romance reads. Whatever I can get through quickly.
-          </li>
-          <li>
-            <b>Celebrating:</b> My business becoming Atlanta's first Shopify
-            Plus Solutions Partner, making{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/feed/update/urn:li:activity:6554512789229101056"
-            >
-              dreams come true
-            </a>{' '}
-            for Tesla owners
-          </li>
-          <li>
-            <b>Listening to: </b>{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.youtube.com/watch?v=n2EjeMx4bSg"
-            >
-              I Prevail
+              ReCharge ChargeX Summit
             </a>
           </li>
           <li>
-            <b>Watching: </b> Stargate SG1
+            <b>Reading: </b> Daisy Jones & the Six (for like 2 more hours)
           </li>
           <li>
-            <b>Learning about: </b> Headless commerce
+            <b>Celebrating:</b> My fourth wedding anniversary with my husband!
+          </li>
+          <li>
+            <b>Listening to: </b> Taylor Swift's "Lover" album on repeat
+          </li>
+          <li>
+            <b>Watching: </b> Stargate Atlantis
+          </li>
+          <li>
+            <b>Learning about: </b> VueJS
           </li>
           <li>
             <b>Working on: </b>
@@ -87,7 +70,7 @@ const Now = props => (
                 >
                   Ladybug Podcast
                 </a>{' '}
-                with 3 awesome women in tech
+                with 2 awesome women in tech
               </li>
               <li>
                 Lining up speaking engagements and podcast appearances to
@@ -110,7 +93,7 @@ const Now = props => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/kvlly/status/1140740694354649089"
+          href="https://twitter.com/kvlly/status/1167819130340352007"
         >
           <Img fluid={props.data.speakingKelly.childImageSharp.fluid} />
         </a>
