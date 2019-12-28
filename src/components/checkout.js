@@ -20,7 +20,6 @@ const Checkout = class extends React.Component {
   // You can find your key in the Dashboard:
   // https://dashboard.stripe.com/account/apikeys
   componentDidMount() {
-    console.log(process.env.GATSBY_STRIPE_API_KEY)
     this.stripe = window.Stripe(String(process.env.GATSBY_STRIPE_API_KEY), {
       betas: ['checkout_beta_4'],
     })
@@ -30,8 +29,8 @@ const Checkout = class extends React.Component {
     event.preventDefault()
     const { error } = await this.stripe.redirectToCheckout({
       items: [{ sku: 'sku_EIoH9pfW2fkddM', quantity: 1 }],
-      successUrl: `https://kvlly.com/thanks/`,
-      cancelUrl: `https://kvlly.com/buy-kelly-coffee`,
+      successUrl: `https://kellyvaughn.co/thanks/`,
+      cancelUrl: `https://kellyvaughn.co/buy-kelly-coffee`,
     })
 
     if (error) {

@@ -9,7 +9,7 @@ const BuyKellyCoffee = props => (
   <>
     <SEO
       title="Buy Kelly Coffee"
-      image="https://kvlly.com/images/coffee-kelly.jpg"
+      image="https://kellyvaughn.co/images/coffee-kelly.jpg"
     />
     <div className="siteHeader">
       <h1>Buy Kelly Coffee &mdash;</h1>
