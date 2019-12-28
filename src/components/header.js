@@ -21,12 +21,9 @@ const Header = () => {
     countQuantity(checkout ? checkout.lineItems : [])
   )
 
-  useEffect(
-    () => {
-      setQuantity(countQuantity(checkout ? checkout.lineItems : []))
-    },
-    [checkout]
-  )
+  useEffect(() => {
+    setQuantity(countQuantity(checkout ? checkout.lineItems : []))
+  }, [checkout])
 
   return (
     <div>
@@ -58,7 +55,6 @@ const Header = () => {
           </div>
           <div className="links">
             <Link to="/now">Now</Link>
-            <Link to="/speaking">Speaking</Link>
             <Link to="/buy-kelly-coffee">Coffee</Link>
             <Link to="/shop">Shop</Link>
             <Link to="/cart">Cart {quantity !== 0 && `(${quantity})`}</Link>

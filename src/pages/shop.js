@@ -40,7 +40,7 @@ const Shop = props => {
     <>
       <SEO
         title="Shop | Kelly Vaughn"
-        image="https://kvlly.com/images/donut-time.jpg"
+        image="https://kellyvaughn.co/images/donut-time.jpg"
         description="Developer merch you didn't know you needed"
       />
       <div className="siteHeader products-intro">
@@ -50,11 +50,7 @@ const Shop = props => {
           I started this shop as a way to learn headless commerce, but it has
           evolved into its own side business and I love it! Whether you shop on
           this store or the{' '}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://shop.kvlly.com"
-          >
+          <a target="_blank" rel="noopener noreferrer" href="https://kvlly.com">
             Shopify storefront
           </a>
           , all orders will be fulfilled.

@@ -7,7 +7,7 @@ const CartPage = props => (
   <>
     <SEO
       title="Cart | Kelly Vaughn"
-      image="https://kvlly.com/images/coffee-kelly.jpg"
+      image="https://kellyvaughn.co/images/coffee-kelly.jpg"
     />
     <h1>Cart &mdash;</h1>
     <div className="cart">
