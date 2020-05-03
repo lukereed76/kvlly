@@ -6,7 +6,7 @@
   "author": "Kelly Vaughn <kelly@thetaproom.com>",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^2.18.17",
+    "gatsby": "^2.21.9",
     "gatsby-cli": "^2.12.7",
     "gatsby-image": "^2.2.37",
     "gatsby-plugin-catch-links": "^2.1.21",
