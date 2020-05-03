@@ -39,7 +39,6 @@ const Book = props => (
         </p>
 
         <h3>Sign up to receive an email when the book is available.</h3>
-        <Newsletter />
       </div>
       <div className="inner-image">
         <Img fluid={props.data.kellyBook.childImageSharp.fluid} />
