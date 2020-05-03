@@ -81,6 +81,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://gmail.us8.list-manage.com/subscribe/post?u=d3e9e1473964a51446217f848&amp;id=21ea4cc353',
+      },
+    },
+    {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: `/sitemap.xml`,

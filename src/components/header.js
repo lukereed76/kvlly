@@ -34,6 +34,7 @@ const Header = () => {
           </div>
           <div className="links">
             <Link to="/now">Now</Link>
+            <Link to="/book">Book</Link>
             <Link to="/buy-kelly-coffee">Coffee</Link>
           </div>
         </div>
