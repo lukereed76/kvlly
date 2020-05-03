@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 import Img from 'gatsby-image'
 import Newsletter from '../components/newsletter'
 
-const book = props => (
+const Book = props => (
   <>
     <SEO
       title="Start Freelancing: Ebook Coming Soon"
@@ -48,7 +48,7 @@ const book = props => (
   </>
 )
 
-export default book
+export default Book
 
 export const pageQuery = graphql`
   query {
