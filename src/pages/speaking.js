@@ -8,7 +8,7 @@ const Speaking = props => (
   <>
     <SEO
       title="Speaking Engagements"
-      image="https://kellyvaughn.co/images/speaking.jpg"
+      image="https://kvlly.com/images/speaking.jpg"
     />
     <div className="siteHeader">
       <h1>Speaking Engagements &mdash;</h1>
