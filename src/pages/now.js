@@ -8,7 +8,7 @@ const Now = props => (
   <>
     <SEO
       title="What I'm Doing Now | Kelly Vaughn"
-      image="https://kellyvaughn.co/images/nowkelly-uncropped.jpg"
+      image="https://kvlly.com/images/nowkelly-uncropped.jpg"
       description="A quick recap of what I'm up to right now, including what I'm listening to, working on, and celebrating. Last updated September 18, 2019."
     />
     <div className="siteHeader">

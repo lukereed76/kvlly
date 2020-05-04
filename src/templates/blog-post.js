@@ -10,7 +10,7 @@ import '../components/blog.scss'
 
 export default function Template({ data }) {
   const post = data.markdownRemark
-  const imagePath = `https://kellyvaughn.co/images/`
+  const imagePath = `https://kvlly.com/images/`
   const blogPath = post.frontmatter.path.split('/').pop()
   return (
     <BlogLayout>

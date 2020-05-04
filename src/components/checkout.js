@@ -27,8 +27,8 @@ const Checkout = class extends React.Component {
     event.preventDefault()
     const { error } = await this.stripe.redirectToCheckout({
       items: [{ sku: 'sku_EIoH9pfW2fkddM', quantity: 1 }],
-      successUrl: `https://kellyvaughn.co/thanks/`,
-      cancelUrl: `https://kellyvaughn.co/buy-kelly-coffee`,
+      successUrl: `https://kvlly.com/thanks/`,
+      cancelUrl: `https://kvlly.com/buy-kelly-coffee`,
     })
 
     if (error) {

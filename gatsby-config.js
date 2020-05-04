@@ -7,9 +7,9 @@ module.exports = {
     title: ``,
     description: `Kelly Vaughn is a developer and the founder of The Taproom Agency, a Shopify consultancy specializing in high-growth merchants.`,
     author: `@kvlly`,
-    image: 'https://kellyvaughn.co/images/photo.jpg',
+    image: 'https://kvlly.com/images/photo.jpg',
     twitterUsername: '@kvlly',
-    siteUrl: 'https://www.kellyvaughn.co',
+    siteUrl: 'https://www.kvlly.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        url: `https://kellyvaughn.co`,
+        url: `https://kvlly.com`,
         name: `Kelly Vaughn`,
         short_name: `personal-site`,
         start_url: `/`,
@@ -78,6 +78,13 @@ module.exports = {
       resolve: `gatsby-plugin-env-variables`,
       options: {
         whitelist: ['SHOPIFY_STORE_NAME', 'SHOPIFY_SECRET'],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://gmail.us8.list-manage.com/subscribe/post?u=d3e9e1473964a51446217f848&amp;id=21ea4cc353',
       },
     },
     {
