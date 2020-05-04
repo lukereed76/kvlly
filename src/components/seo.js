@@ -31,6 +31,10 @@ function SEO({ description, lang, meta, keywords, title, image, card }) {
                 content: metaDescription,
               },
               {
+                property: `og:image`,
+                content: image || data.site.siteMetadata.image,
+              },
+              {
                 property: `og:type`,
                 content: `website`,
               },
