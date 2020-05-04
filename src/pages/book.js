@@ -9,7 +9,7 @@ const Book = props => (
   <>
     <SEO
       title="Start Freelancing: Ebook Coming Soon"
-      image="https://kvlly.com/images/seo-kelly.jpg"
+      image="https://kvlly.com/images/seo-book.jpg"
     />
     <div className="siteHeader">
       <h1>Start Freelancing &mdash;</h1>
