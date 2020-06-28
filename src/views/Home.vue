@@ -21,12 +21,20 @@ export default {
         content: "Take in the beauty of this really complex website.",
       },
       {
+        property: "og:title",
+        content: "Kelly Vaughn | I am on the internet",
+      },
+      {
         property: "og:description",
         content: "Take in the beauty of this really complex website.",
       },
       { name: "twitter:card", content: "summary_large_image" },
       {
         name: "twitter:site",
+        content: "@kvlly",
+      },
+      {
+        name: "og:url",
         content: "https://kvlly.com",
       },
       { name: "twitter:title", content: "Kelly Vaughn | I am on the internet" },
@@ -37,6 +45,10 @@ export default {
       { name: "twitter:creator", content: "@kvlly" },
       {
         name: "twitter:image",
+        content: "https://kvlly.com/share-image.png",
+      },
+      {
+        name: "og:image",
         content: "https://kvlly.com/share-image.png",
       },
     ],
