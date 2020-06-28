@@ -25,6 +25,10 @@ export default {
         content: "Kelly Vaughn | I am on the internet",
       },
       {
+        property: "og:type",
+        content: "website",
+      },
+      {
         property: "og:description",
         content: "Take in the beauty of this really complex website.",
       },
