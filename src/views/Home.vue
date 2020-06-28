@@ -48,7 +48,7 @@ export default {
       },
       { name: "twitter:creator", content: "@kvlly" },
       {
-        name: "twitter:image",
+        name: "twitter:image:src",
         content: "https://kvlly.com/share-image.png",
       },
       {
