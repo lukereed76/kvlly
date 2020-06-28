@@ -13,49 +13,5 @@ export default {
   components: {
     HelloWorld,
   },
-  metaInfo: {
-    title: "Kelly Vaughn | I am on the internet",
-    meta: [
-      {
-        name: "description",
-        content: "Take in the beauty of this really complex website.",
-      },
-      {
-        property: "og:title",
-        content: "Kelly Vaughn | I am on the internet",
-      },
-      {
-        property: "og:type",
-        content: "website",
-      },
-      {
-        property: "og:description",
-        content: "Take in the beauty of this really complex website.",
-      },
-      { name: "twitter:card", content: "summary_large_image" },
-      {
-        name: "twitter:site",
-        content: "@kvlly",
-      },
-      {
-        name: "og:url",
-        content: "https://kvlly.com",
-      },
-      { name: "twitter:title", content: "Kelly Vaughn | I am on the internet" },
-      {
-        name: "twitter:description",
-        content: "I have things here on my website.",
-      },
-      { name: "twitter:creator", content: "@kvlly" },
-      {
-        name: "twitter:image:src",
-        content: "https://kvlly.com/share-image.png",
-      },
-      {
-        name: "og:image",
-        content: "https://kvlly.com/share-image.png",
-      },
-    ],
-  },
 };
 </script>
