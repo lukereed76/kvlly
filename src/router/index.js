@@ -10,19 +10,6 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    metaInfo: {
-      title: "Kelly Vaughn | I am the internet",
-      meta: [
-        {
-          name: "description",
-          content: "Take in the beauty of this really complex website.",
-        },
-        {
-          property: "og:description",
-          content: "Take in the beauty of this really complex website.",
-        },
-      ],
-    },
     component: Home,
   },
   {
