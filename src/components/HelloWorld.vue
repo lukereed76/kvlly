@@ -2,7 +2,8 @@
   <div class="hello">
     <h1>Hi, I'm Kelly Vaughn.</h1>
     <p>
-      I'm an entrepreneur, developer, author, speaker, podcaster, and doer of things.
+      I'm an entrepreneur, developer, author, speaker, podcaster, and doer of
+      things.
     </p>
     <h3>Work</h3>
     <ul>
@@ -10,7 +11,11 @@
         <a href="https://thetaproom.com" target="_blank" rel="noopener">Founder & CEO, The Taproom</a>
       </li>
       <li>
-        <a href="https://startfreelancing.today" target="_blank" rel="noopener">Author, Start Freelancing Today</a>
+        <a
+          href="https://startfreelancing.today"
+          target="_blank"
+          rel="noopener"
+        >Author, Start Freelancing Today</a>
       </li>
       <li>
         <a href="https://ladybug.dev" target="_blank" rel="noopener">Co-host, Ladybug Podcast</a>
@@ -33,14 +38,25 @@
     </ul>
     <h3>Contact</h3>
     <ul>
-      <li><a href="mailto:kelly@hey.com">kelly@hey.com</a></li>
+      <li>
+        <a href="mailto:kelly@hey.com">kelly@hey.com</a>
+      </li>
+    </ul>
+    <h3>Commerce Consulting</h3>
+    <ul>
+      <li>
+        <a href="https://calendly.com/taproom-kelly/consulting">30 minutes ($150)</a>
+      </li>
+      <li>
+        <a href="https://calendly.com/taproom-kelly/consulting-1-hour">1 hour ($300)</a>
+      </li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "HelloWorld"
 };
 </script>
 
