@@ -18,6 +18,16 @@
         >Author, Start Freelancing Today</a>
       </li>
       <li>
+        <a
+          href="https://patreon.com/startfreelancingtoday"
+          target="_blank"
+          rel="noopener"
+        >Organizer, Start Freelancing Today Community (Patreon)</a>
+      </li>
+      <li>
+        <a href="https://shopkvlly.com" target="_blank" rel="noopener">Founder, KVLLY (Merch Shop)</a>
+      </li>
+      <li>
         <a href="https://ladybug.dev" target="_blank" rel="noopener">Co-host, Ladybug Podcast</a>
       </li>
       <li>
@@ -42,7 +52,7 @@
         <a href="mailto:kelly@hey.com">kelly@hey.com</a>
       </li>
     </ul>
-    <h3>Commerce Consulting</h3>
+    <h3>Commerce/Agency Consulting</h3>
     <ul>
       <li>
         <a href="https://calendly.com/taproom-kelly/consulting">30 minutes ($150)</a>
